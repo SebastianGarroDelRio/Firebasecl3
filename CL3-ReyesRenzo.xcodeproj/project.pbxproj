@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2290FCBE7F0943693EA00E6B /* Pods_CL3_ReyesRenzo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEEF04F1D13022D37319136 /* Pods_CL3_ReyesRenzo.framework */; };
+		B785127D2B0D6C4600F19257 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B785127C2B0D6C4600F19257 /* GoogleService-Info.plist */; };
+		B785127F2B0D6F1300F19257 /* ISBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B785127E2B0D6F1300F19257 /* ISBViewController.swift */; };
+		B78512812B0D6FBB00F19257 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78512802B0D6FBB00F19257 /* Books.swift */; };
 		B78C9EE92B0C174700F39AB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C9EE82B0C174700F39AB8 /* AppDelegate.swift */; };
 		B78C9EEB2B0C174700F39AB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C9EEA2B0C174700F39AB8 /* SceneDelegate.swift */; };
 		B78C9EED2B0C174700F39AB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C9EEC2B0C174700F39AB8 /* ViewController.swift */; };
 		B78C9EF02B0C174700F39AB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B78C9EEE2B0C174700F39AB8 /* Main.storyboard */; };
 		B78C9EF22B0C174800F39AB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B78C9EF12B0C174800F39AB8 /* Assets.xcassets */; };
 		B78C9EF52B0C174800F39AB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B78C9EF32B0C174800F39AB8 /* LaunchScreen.storyboard */; };
+		B78C9EFD2B0C190700F39AB8 /* DetalleLibroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C9EFC2B0C190700F39AB8 /* DetalleLibroViewController.swift */; };
+		B78C9EFF2B0C1AB000F39AB8 /* ItemLibroCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C9EFE2B0C1AB000F39AB8 /* ItemLibroCollectionViewCell.swift */; };
+		B78C9F012B0C1C4500F39AB8 /* Libro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C9F002B0C1C4500F39AB8 /* Libro.swift */; };
+		B78C9F032B0C1CA300F39AB8 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C9F022B0C1CA300F39AB8 /* ApiResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AECC71635ACA0A5D7E0DA0A0 /* Pods-CL3-ReyesRenzo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CL3-ReyesRenzo.debug.xcconfig"; path = "Target Support Files/Pods-CL3-ReyesRenzo/Pods-CL3-ReyesRenzo.debug.xcconfig"; sourceTree = "<group>"; };
+		B785127C2B0D6C4600F19257 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B785127E2B0D6F1300F19257 /* ISBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISBViewController.swift; sourceTree = "<group>"; };
+		B78512802B0D6FBB00F19257 /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
 		B78C9EE52B0C174700F39AB8 /* CL3-ReyesRenzo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CL3-ReyesRenzo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B78C9EE82B0C174700F39AB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B78C9EEA2B0C174700F39AB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,12 @@
 		B78C9EF12B0C174800F39AB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B78C9EF42B0C174800F39AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B78C9EF62B0C174800F39AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B78C9EFC2B0C190700F39AB8 /* DetalleLibroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleLibroViewController.swift; sourceTree = "<group>"; };
+		B78C9EFE2B0C1AB000F39AB8 /* ItemLibroCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemLibroCollectionViewCell.swift; sourceTree = "<group>"; };
+		B78C9F002B0C1C4500F39AB8 /* Libro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Libro.swift; sourceTree = "<group>"; };
+		B78C9F022B0C1CA300F39AB8 /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		E90BEAB9CCE023334F20CCE6 /* Pods-CL3-ReyesRenzo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CL3-ReyesRenzo.release.xcconfig"; path = "Target Support Files/Pods-CL3-ReyesRenzo/Pods-CL3-ReyesRenzo.release.xcconfig"; sourceTree = "<group>"; };
+		FFEEF04F1D13022D37319136 /* Pods_CL3_ReyesRenzo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CL3_ReyesRenzo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2290FCBE7F0943693EA00E6B /* Pods_CL3_ReyesRenzo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B4E48BC668C91AB82C122491 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AECC71635ACA0A5D7E0DA0A0 /* Pods-CL3-ReyesRenzo.debug.xcconfig */,
+				E90BEAB9CCE023334F20CCE6 /* Pods-CL3-ReyesRenzo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B78C9EDC2B0C174700F39AB8 = {
 			isa = PBXGroup;
 			children = (
 				B78C9EE72B0C174700F39AB8 /* CL3-ReyesRenzo */,
 				B78C9EE62B0C174700F39AB8 /* Products */,
+				B4E48BC668C91AB82C122491 /* Pods */,
+				BD7973FD880225E3D66121D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +86,7 @@
 		B78C9EE72B0C174700F39AB8 /* CL3-ReyesRenzo */ = {
 			isa = PBXGroup;
 			children = (
+				B785127C2B0D6C4600F19257 /* GoogleService-Info.plist */,
 				B78C9EE82B0C174700F39AB8 /* AppDelegate.swift */,
 				B78C9EEA2B0C174700F39AB8 /* SceneDelegate.swift */,
 				B78C9EEC2B0C174700F39AB8 /* ViewController.swift */,
@@ -63,8 +94,22 @@
 				B78C9EF12B0C174800F39AB8 /* Assets.xcassets */,
 				B78C9EF32B0C174800F39AB8 /* LaunchScreen.storyboard */,
 				B78C9EF62B0C174800F39AB8 /* Info.plist */,
+				B78C9EFC2B0C190700F39AB8 /* DetalleLibroViewController.swift */,
+				B78C9EFE2B0C1AB000F39AB8 /* ItemLibroCollectionViewCell.swift */,
+				B78C9F002B0C1C4500F39AB8 /* Libro.swift */,
+				B78C9F022B0C1CA300F39AB8 /* ApiResponse.swift */,
+				B785127E2B0D6F1300F19257 /* ISBViewController.swift */,
+				B78512802B0D6FBB00F19257 /* Books.swift */,
 			);
 			path = "CL3-ReyesRenzo";
+			sourceTree = "<group>";
+		};
+		BD7973FD880225E3D66121D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFEEF04F1D13022D37319136 /* Pods_CL3_ReyesRenzo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B78C9EF92B0C174800F39AB8 /* Build configuration list for PBXNativeTarget "CL3-ReyesRenzo" */;
 			buildPhases = (
+				73F4DC60834CBDDCB701D8A9 /* [CP] Check Pods Manifest.lock */,
 				B78C9EE12B0C174700F39AB8 /* Sources */,
 				B78C9EE22B0C174700F39AB8 /* Frameworks */,
 				B78C9EE32B0C174700F39AB8 /* Resources */,
+				6EFD93820FA58A10196837D9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B78C9EF52B0C174800F39AB8 /* LaunchScreen.storyboard in Resources */,
+				B785127D2B0D6C4600F19257 /* GoogleService-Info.plist in Resources */,
 				B78C9EF22B0C174800F39AB8 /* Assets.xcassets in Resources */,
 				B78C9EF02B0C174700F39AB8 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +181,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6EFD93820FA58A10196837D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CL3-ReyesRenzo/Pods-CL3-ReyesRenzo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CL3-ReyesRenzo/Pods-CL3-ReyesRenzo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CL3-ReyesRenzo/Pods-CL3-ReyesRenzo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73F4DC60834CBDDCB701D8A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CL3-ReyesRenzo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B78C9EE12B0C174700F39AB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B78C9F012B0C1C4500F39AB8 /* Libro.swift in Sources */,
 				B78C9EED2B0C174700F39AB8 /* ViewController.swift in Sources */,
 				B78C9EE92B0C174700F39AB8 /* AppDelegate.swift in Sources */,
+				B78C9F032B0C1CA300F39AB8 /* ApiResponse.swift in Sources */,
+				B78C9EFF2B0C1AB000F39AB8 /* ItemLibroCollectionViewCell.swift in Sources */,
+				B78C9EFD2B0C190700F39AB8 /* DetalleLibroViewController.swift in Sources */,
+				B78512812B0D6FBB00F19257 /* Books.swift in Sources */,
 				B78C9EEB2B0C174700F39AB8 /* SceneDelegate.swift in Sources */,
+				B785127F2B0D6F1300F19257 /* ISBViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +378,7 @@
 		};
 		B78C9EFA2B0C174800F39AB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AECC71635ACA0A5D7E0DA0A0 /* Pods-CL3-ReyesRenzo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +406,7 @@
 		};
 		B78C9EFB2B0C174800F39AB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E90BEAB9CCE023334F20CCE6 /* Pods-CL3-ReyesRenzo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
